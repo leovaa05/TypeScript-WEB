@@ -54,14 +54,3 @@ No arquivo `style.css`, adicione uma estilização simples e limpa para tornar a
 
 Para Compilar o TypeScript e gerar o **script.js**: 
 `npx tsc script.ts`
-
-#### Passo 5: Criar versão em JavaScript puro (`script-js.js`)
-Crie uma segunda versão da lógica, sem tipagem ou validações explícitas, como um exemplo comparativo com o TypeScript.
-
-#### Passo 6: Testar a diferença entre as versões
-No index.html, troque a inclusão do script para testar cada versão:
-- Para rodar a versão compilada em TypeScript
-  `<script src="script.js"></script>`
-
-- Para rodar a versão em JavaScript puro
-  `<script src="script-js.js"></script>`
