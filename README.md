@@ -54,3 +54,14 @@ No arquivo `style.css`, adicione uma estilização simples e limpa para tornar a
 
 Para Compilar o TypeScript e gerar o **script.js**: 
 `npx tsc script.ts`
+
+## Prints com demonstrações de resultados:
+
+### Validação com valores inválidos (exemplo com letras)
+![Erro ao digitar texto](images/erro.png)
+
+### IMC indicando obesidade
+![IMC Obesidade](images/obesidade.png)
+
+### IMC indicando peso normal
+![IMC Peso normal](images/normal.png)
